@@ -72,6 +72,8 @@ function wrapPeerConnectionEvent(window, eventNameToWrap, wrapper) {
             this['_on' + eventNameToWrap] = cb);
       }
     }
+    enumerable: true,
+    configurable: true,
   });
 }
 
