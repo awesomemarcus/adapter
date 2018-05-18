@@ -71,7 +71,7 @@ function wrapPeerConnectionEvent(window, eventNameToWrap, wrapper) {
         this.addEventListener(eventNameToWrap,
             this['_on' + eventNameToWrap] = cb);
       }
-    }
+    },
     enumerable: true,
     configurable: true,
   });
